@@ -46,3 +46,11 @@ Circuits. The package require PGF/TikZ support.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-1
++ Revision: 759036
+- texlive-reotex
+- texlive-reotex
+
