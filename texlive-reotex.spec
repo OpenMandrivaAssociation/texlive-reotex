@@ -1,7 +1,7 @@
-# revision 25037
+# revision 29803
 # category Package
 # catalog-ctan /graphics/pgf/contrib/reotex
-# catalog-date 2012-01-06 12:55:46 +0100
+# catalog-date 2012-01-11 08:56:14 +0100
 # catalog-license lppl
 # catalog-version 1.0
 Name:		texlive-reotex
@@ -46,11 +46,3 @@ Circuits. The package require PGF/TikZ support.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-1
-+ Revision: 759036
-- texlive-reotex
-- texlive-reotex
-
