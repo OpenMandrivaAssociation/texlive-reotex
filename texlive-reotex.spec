@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-reotex
 Version:	1.0
-Release:	2
+Release:	3
 Summary:	Draw Reo Channels and Circuits
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/reotex
