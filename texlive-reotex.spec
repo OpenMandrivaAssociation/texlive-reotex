@@ -1,18 +1,12 @@
-# revision 29803
-# category Package
-# catalog-ctan /graphics/pgf/contrib/reotex
-# catalog-date 2012-01-11 08:56:14 +0100
-# catalog-license lppl
-# catalog-version 1.0
 Name:		texlive-reotex
-Version:	1.1
-Release:	2
+Version:	34924
+Release:	1
 Summary:	Draw Reo Channels and Circuits
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/reotex
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/reotex.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/reotex.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/reotex.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/reotex.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -23,12 +17,12 @@ The package defines macros and other utilities to design Reo
 Circuits. The package require PGF/TikZ support.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -39,7 +33,7 @@ Circuits. The package require PGF/TikZ support.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
