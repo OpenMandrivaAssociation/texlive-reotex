@@ -1,6 +1,6 @@
 Name:		texlive-reotex
 Version:	34924
-Release:	1
+Release:	2
 Summary:	Draw Reo Channels and Circuits
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/reotex
