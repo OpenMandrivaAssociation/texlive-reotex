@@ -3,7 +3,7 @@ Version:	34924
 Release:	2
 Summary:	Draw Reo Channels and Circuits
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/reotex
+URL:		https://www.ctan.org/tex-archive/graphics/pgf/contrib/reotex
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/reotex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/reotex.doc.r%{version}.tar.xz
